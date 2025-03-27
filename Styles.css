@@ -1,9 +1,8 @@
 @import url(styles/header.css);
-body {
-    background-color: #5dce00; /* Teste esta cor fixa */
-    margin: 0;
-  }
-  
+:root{
+    --cor-de-fundo: #9949B4;
+    --cor-cabecalho: #FFFFFF;
+}
 body{
 background-color: var(--cor-de-fundo);
 margin: 0;
