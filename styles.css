@@ -7,3 +7,66 @@ body{
 background-color: var(--cor-de-fundo);
 margin: 0;
 }
+
+
+
+
+
+
+/* CSS básico para garantir um layout responsivo e organizado */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imagem {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.frase {
+    font-size: 24px;
+    color: #666;
+    position: absolute;
+    top: 20px;
+    right: 50px; /* Mover o slogan para a direita */
+    text-align: right; /* Garantir que o texto fique à direita */
+    font-style: italic;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 28px;
+    }
+
+    .frase {
+        font-size: 18px;
+        right: 20px; /* Ajuste para telas menores */
+    }
+}
