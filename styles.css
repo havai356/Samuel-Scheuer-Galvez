@@ -1,6 +1,6 @@
 @import url(styles/header.css);
 :root{
---cor-de-fundo: #C6D385;
+--cor-de-fundo: #74b30149;
 --cor-cabecalho: #C6D385;
 }
 body{
@@ -29,7 +29,7 @@ body {
     position: relative;
     text-align: center;
     padding: 50px;
-    background-color: #f4f4f4;
+    background-color: #C6D385;
 }
 
 .container {
@@ -45,13 +45,13 @@ body {
 
 .titulo {
     font-size: 36px;
-    color: #333;
+    color: #333333;
     margin-bottom: 10px;
 }
 
 .frase {
     font-size: 24px;
-    color: #666;
+    color: #1f1b1b;
     position: absolute;
     top: 20px;
     right: 50px; /* Mover o slogan para a direita */
