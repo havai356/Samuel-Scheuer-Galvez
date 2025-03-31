@@ -13,7 +13,7 @@ margin: 0;
 
 
 
-/* CSS básico para garantir um layout responsivo e organizado */
+
 
 * {
     margin: 0;
@@ -54,12 +54,12 @@ body {
     color: #1f1b1b;
     position: absolute;
     top: 20px;
-    right: 50px; /* Mover o slogan para a direita */
-    text-align: right; /* Garantir que o texto fique à direita */
+    right: 50px; 
+    text-align: right; 
     font-style: italic;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     .titulo {
         font-size: 28px;
@@ -67,6 +67,6 @@ body {
 
     .frase {
         font-size: 18px;
-        right: 20px; /* Ajuste para telas menores */
+        right: 20px; 
     }
 }
